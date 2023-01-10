@@ -1,0 +1,293 @@
+- 
+  lectures: 
+    - 
+      date: 2023-01-18
+      title: Lecture 1 <br> Course Introduction & Linguistics 101 (working with text) 
+      slides: slides/lecture1-intro.pdf
+      readings:
+        -
+          title: "Chapter 2.2 - Chapter 2.6"
+          url: "https://web.stanford.edu/~jurafsky/slp3/2.pdf"
+        -
+          title: "Chapter 8.1 - 8.1"
+          url: "https://web.stanford.edu/~jurafsky/slp3/8.pdf"
+      assignments: 
+        - 
+          deadline: 2023-01-23
+          title: "HW00 - Python Warmup"
+          url: "hw00.html"
+    - 
+      date: 2023-01-23
+      title: Lecture 2 <br> Language Modeling
+      slides: slides/lecture2.pdf
+      readings:
+        -
+          title: "Chapter 3"
+          url: "https://web.stanford.edu/~jurafsky/slp3/3.pdf"
+    - 
+      date: 2023-01-25
+      title: "Lecture 3 <br> Document Term Matrix <br> BoW, similarity metrics, tf-idf" 
+      slides: slides/lecture3.pdf
+      assignments: 
+        - 
+          deadline: 2023-01-30
+          title: "HW01"
+          url: "hw01.html"
+      readings:
+        -
+          title: "Chapter 6.3-6.7"
+          url: "https://web.stanford.edu/~jurafsky/slp3/6.pdf"
+    - 
+      date: 2023-01-30
+      title: Lecture 4 <br> Classification (Naive Bayes) <br> LECTURE DURING LAB SLOT
+      slides: "slides/lecture4.pdf"
+      readings:
+        -
+          title: "Chapter 4"
+          url: "https://web.stanford.edu/~jurafsky/slp3/4.pdf"
+    - 
+      date: 2023-02-01
+      title: Lecture 5 <br> Linear & Logistic Regression
+      readings:
+        -
+          title: "Chapter 5"
+          url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
+      slides: "slides/lecture5.pdf"
+      assignments: 
+        - 
+          deadline: 2023-02-06
+          title: "HW02"
+          url: "hw02.html"
+    - 
+      date: 2023-02-03
+      title: Last day to drop a fifth course at Bryn Mawr and Haverford.
+      type: "'deadline'"
+    - 
+      date: 2023-02-06
+      title: Lecture 6 <br> Deep Learning I
+      readings:
+        -
+          title: "Chapter 7"
+          url: "https://web.stanford.edu/~jurafsky/slp3/7.pdf"
+      slides: ~
+    - 
+      date: 2023-02-08
+      title: Lecture 7 <br> Deep Learning II
+      assignments: 
+        - 
+          deadline: 2023-02-13
+          title: "HW03"
+          url: "hw03.html"
+      readings:
+        -
+          title: "Chapter 7"
+          url: "https://web.stanford.edu/~jurafsky/slp3/7.pdf"
+      slides: ~
+    - 
+      date: 2023-02-13
+      title: Lecture 8 <br> Neural Language Models I 
+      readings:
+        -
+          title: "Chapter 9"
+          url: "https://web.stanford.edu/~jurafsky/slp3/9.pdf"
+      slides: slides/lecture8.pdf
+    - 
+      date: 2023-02-15
+      title: Lecture 9 <br> Neural Language Models II (Transformers)
+      readings:
+        -
+          title: "Chapter 10"
+          url: "https://web.stanford.edu/~jurafsky/slp3/10.pdf"
+        -
+          title: "Chapter 11"
+          url: "https://web.stanford.edu/~jurafsky/slp3/11.pdf"
+      assignments: 
+        - 
+          deadline: 2023-02-20
+          title: "HW04"
+          url: "hw04.html"
+      slides: slides/lecture9.pdf
+    - 
+      date: 2023-02-20
+      title: Lecture 10 <br> Word Representations I 
+      readings:
+        -
+          title: "Chapter 6.8-6.13"
+          url: "https://web.stanford.edu/~jurafsky/slp3/6.pdf"
+      slides: "slides/lecture10.pdf"
+    - 
+      date: 2023-02-22
+      title: Lecture 11 <br> Word Representations II
+      slides: "slides/lecture11.pdf"
+      assignments: 
+        - 
+          title: "Lab05"
+          url: "lab05.html"
+      readings:
+        -
+          title: "Chapter 6.8-6.13"
+          url: "https://web.stanford.edu/~jurafsky/slp3/6.pdf"
+    - 
+      date: 2023-02-24
+      slides: ~
+      title: Last day to declare Cr/NC for full semester courses (5 p.m.).
+      slides: ~
+      notebook:  ~
+      completed_notebook: ~
+      type: "'deadline'"
+    -  
+      date: 2023-02-23
+      title: Lecture 12 <br> References & Objects
+      readings:
+        -
+          title: "Chapter 9"
+      slides: "slides/lecture11.pdf"
+    - 
+      date: 2023-02-28
+      title: Lecture 13 <br> Review
+      slides: "slides/lecture13.pdf"
+      assignments: 
+        - 
+          title: "Lab06 - Review"
+          url: "lab06.html"
+    - 
+      date: 2023-03-02
+      title: Lecture 14 <br> Midterm I
+      type: "'exam'"
+    - 
+      date: 2023-03-07
+      title: SPRING BREAK
+      type: "'no_lecture'"
+    - 
+      date: 2023-03-09
+      title: SPRING BREAK
+      type: "'no_lecture'"
+  name: "Programming Fundamentals"
+- 
+  lectures: 
+    - 
+      date: 2023-03-14
+      title: Lecture 15 <br> Objects I
+      readings:
+        -
+          title: "Chapter 10"
+      assignments: 
+        - 
+          title: "Lab07"
+          url: "lab07.html"
+      slides: ~
+    - 
+      date: 2023-03-16
+      slides: ~
+      title: Lecture 16 <br> Designing Classes
+      readings:
+        -
+          title: "Chapter 11"
+        -
+          title: "Chapter 12.1 - 12.6 (inclusive)"
+      slides: "slides/lecture16.pdf"
+    - 
+      date: 2023-03-21
+      slides: ~
+      title: Lecture 17 <br> Class Hierarchy (Inheritance & Interfaces)
+      readings:
+        -
+          authors:
+          title: "Chapter 14"
+        -
+          title: "Chapter 17.4"
+        -
+          title: "Chapter 17.7"
+      slides: "slides/lecture18.pdf"
+      assignments: 
+        - 
+          title: "Lab08"
+          url: "lab08.html"
+      slides: "slides/lecture17.pdf"
+    - 
+      date: 2023-03-23
+      slides: ~
+      title: Lecture 18 <br> More classes & Objects
+      readings:
+        -
+          title: "Chapter 16"
+    - 
+      date: 2023-03-28
+      title: Lecture 19 <br> Searching 
+      readings:
+        -
+          authors:
+          title: "Chapter 12.7-12.9"
+      slides: "slides/lecture19.pdf"
+      assignments: 
+        - 
+          title: "Lab09"
+          url: "lab09.html"
+    - 
+      date: 2023-03-30
+      slides: "slides/lecture20.pdf"
+      title: Lecture 20 <br> Searching & Sorting 
+      readings:
+        -
+          authors:
+          title: "Chapter 13"
+    - 
+      date: 2023-04-04
+      title: Lecture 21 <br> Sorting & Runtime Analysis
+      readings:
+        -
+          title: "Chapter 13"
+      assignments: 
+        - 
+          title: "Lab10"
+          url: "lab10.html"
+    - 
+      date: 2023-04-06
+      title: PASSOVER <br> NO CLASS
+      type: "'no_lecture'"
+    - 
+      date: 2023-04-11
+      slides: "slides/lecture23.pdf"
+      assignments: 
+        - 
+          title: "Lab11 Review"
+          url: "lab11.html"
+      title: Lecture 22 <br> Midterm Review (remote lecture)
+    - 
+      date: 2023-04-13
+      title: Lecture 23 <br> Midterm II
+      type: "'exam'"
+  name: "Object-Oriented Programming (OOP)"
+- 
+  lectures: 
+    - 
+      date: 2023-04-18
+      slides: ~
+      title: Lecture 24 <br> 2D & Jagged arrays
+      slides: "slides/lecture25.pdf"
+      readings:
+         -
+           title: "Chapter 15"
+      assignments: 
+        - 
+          title: "Lab12"
+          url: "lab12.html"
+    - 
+      date: 2023-04-20
+      title: Lecture 25 <br> Testing Code (JUnit)
+      slides: "slides/lecture26.pdf"
+      readings:
+         -
+           title: "Appendix A.7 - Testing with JUnit"
+      assignments: 
+        - 
+          title: "Lab13"
+          url: "lab13.html"
+    - 
+      date: 2023-04-25
+      title: Lecture 26 <br> TBD
+      readings:
+    - 
+      date: 2023-04-27
+      title: Lecture 27 <br> Review
+  name: "Advanced Topics"
