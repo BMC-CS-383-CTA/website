@@ -39,15 +39,40 @@
           url: "https://web.stanford.edu/~jurafsky/slp3/6.pdf"
     - 
       date: 2023-01-30
-      title: Lecture 4 <br> Classification (Naive Bayes) <br> LECTURE DURING LAB SLOT
+      title: Lecture 4 <br> Dimensionality Reduction <br> LECTURE DURING LAB SLOT
+      slides: "slides/lecture4.pdf"
+      readings:
+    - 
+      date: 2023-02-01
+      title: Lecture 5 <br> Word Representations/Embeddings 
+      readings:
+        -
+          title: "Chapter 6.8-6.13"
+          url: "https://web.stanford.edu/~jurafsky/slp3/6.pdf"
+    -
+      date: 2023-02-06
+      title: Lecture 6 <br> Topic Modeling I
+      readings:
+      slides: "slides/lecture11.pdf"
+    -
+      date: 2023-02-08
+      title: Lecture 7 <br> Topic Modeling II
+      slides: "slides/lecture13.pdf"
+      assignments:
+  name: "Text Processing & EDA"
+- 
+  lectures: 
+    - 
+      date: 2023-02-06
+      title: Lecture 6 <br> Classification (Naive Bayes) <br> LECTURE DURING LAB SLOT
       slides: "slides/lecture4.pdf"
       readings:
         -
           title: "Chapter 4"
           url: "https://web.stanford.edu/~jurafsky/slp3/4.pdf"
     - 
-      date: 2023-02-01
-      title: Lecture 5 <br> Linear & Logistic Regression
+      date: 2023-02-08
+      title: Lecture 7 <br> Linear & Logistic Regression
       readings:
         -
           title: "Chapter 5"
@@ -135,25 +160,26 @@
       notebook:  ~
       completed_notebook: ~
       type: "'deadline'"
+  name: "Supervised Learning"
+- 
+  lectures: 
     -  
-      date: 2023-02-23
-      title: Lecture 12 <br> References & Objects
+      date: 2023-02-27
+      title: Lecture 12 <br> Topic Modeling I
       readings:
-        -
-          title: "Chapter 9"
       slides: "slides/lecture11.pdf"
     - 
-      date: 2023-02-28
-      title: Lecture 13 <br> Review
+      date: 2023-02-29
+      title: Lecture 13 <br> Topic Modeling II
       slides: "slides/lecture13.pdf"
       assignments: 
-        - 
-          title: "Lab06 - Review"
-          url: "lab06.html"
     - 
-      date: 2023-03-02
-      title: Lecture 14 <br> Midterm I
-      type: "'exam'"
+      date: 2023-03-01
+      title: Lecture 13 <br> Dictionary Based Methods
+      readings:
+        -
+          title: "Chapter 25"
+          url: "https://web.stanford.edu/~jurafsky/slp3/25.pdf"
     - 
       date: 2023-03-07
       title: SPRING BREAK
