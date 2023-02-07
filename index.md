@@ -19,7 +19,7 @@ The course will culminate around research projects where groups of students will
 {% capture due_date %}{{page.due_date | date: '%s'}}{% endcapture %}
 {% if release_date < now and due_date >= now %}
 <div class="alert alert-info">
-<a href="{{page.url}}">{{ page.title }}</a> has been released.  
+<a href="{{ site.url }}{{ site.baseurl }}/{{page.url}}">{{ page.title }}</a> has been released.  
 {% if page.deliverables %}
 The assignment has multiple deliverables.
 {% for deliverable in page.deliverables %}
@@ -69,7 +69,7 @@ Course Readings
 : Each lecture has an accompanying reading that will be posted to the schedule. Some lectures will have accompanying optional reading related to the lecture's topic.
 : Many of the accompanying readings will be from the following freely available textbooks:
 1. Jurafsky and Martin, Speech and Language Processing (3rd ed. draft) [(online copy)](https://web.stanford.edu/~jurafsky/slp3/)
-1. [Text Analysis in Python for Social Scientists](https://www.cambridge.org/core/elements/text-analysis-in-python-for-social-scientists/BFAB0A3604C7E29F6198EA2F7941DFF3). [Digital copies](1019151557604921&context=L&vid=01TRI_INST:BMC&lang=en&search_scope=BMC_Catalog&adaptor=Local%20Search%20Engine&tab=LibraryCatalog&query=any,contains,text%20analysis%20in%20python%20for%20social%20scientists&offset=0) are available to download with your BMC/HC login from the Tripod (TriCollege Libraries).
+1. [Text Analysis in Python for Social Scientists](https://www.cambridge.org/core/elements/text-analysis-in-python-for-social-scientists/BFAB0A3604C7E29F6198EA2F7941DFF3). [Digital copies](https://tripod.brynmawr.edu/discovery/search?query=any,contains,text%20analysis%20in%20python%20for%20social%20scientists&tab=LibraryCatalog&search_scope=BMC_Catalog&vid=01TRI_INST:BMC&offset=0) are available to download with your BMC/HC login from the Tripod (TriCollege Libraries).
 
 Grading
 * Homeworks: 30%
