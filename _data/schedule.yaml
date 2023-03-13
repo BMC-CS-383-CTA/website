@@ -66,6 +66,10 @@
         -
           title: "Chapter 6.8-6.13"
           url: "https://web.stanford.edu/~jurafsky/slp3/6.pdf"
+    - 
+      date: 2023-02-03
+      title: Last day to drop a fifth course at Bryn Mawr and Haverford.
+      type: "'deadline'"
     -
       date: 2023-02-06
       title: Lecture 6 <br> Clustering <br> Topic Modeling I 
@@ -89,7 +93,7 @@
     -
       date: 2023-02-08
       title: Lecture 7 <br> Topic Modeling II <br> Dictionary Based Methods 
-      slides: "slides/lecture13.pdf"
+      slides: slides/lecture07.pdf
       readings:
         -
           title: "Applications of Topic Models (Boyd-Graber, Hu, Mimno): Chapters 9, 10"
@@ -98,55 +102,64 @@
           title: "Jurafsky & Martin: Chapter 25"
           url: "https://web.stanford.edu/~jurafsky/slp3/25.pdf"
       assignments:
+        - 
+          deadline: 2023-02-20
+          title: "Reading 04 - Dictionary Methods & Applications"
+          url: "https://www.overleaf.com/read/gfbkknxnmcvy"
   name: "Text Processing & Unsupervised Methods"
 - 
   lectures: 
     - 
       date: 2023-02-13
-      title: Lecture 8 <br> Classification (Naive Bayes) <br> LECTURE DURING LAB SLOT
-      slides: "slides/lecture4.pdf"
+      title: Lecture 8 <br> Classification <s>(Naive Bayes)</s> <br> Linear & Logistic Regression
+      slides: slides/lecture08.pdf
       readings:
         -
-          title: "Chapter 4"
+          title: <s>Chapter 4</s>
           url: "https://web.stanford.edu/~jurafsky/slp3/4.pdf"
-    - 
-      date: 2023-02-15
-      title: Lecture 9 <br> Linear & Logistic Regression
-      readings:
         -
           title: "Chapter 5"
           url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
-      slides: "slides/lecture5.pdf"
+    - 
+      date: 2023-02-15
+      title: Lecture 9 <br> SGD, Feed Forward Neural Networks <br><s>Linear & Logistic Regression</s>
+      readings:
+        -
+          title: <s>"Chapter 5"</s>
+          url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
+        -
+          title: "Chapter 7"
+          url: "https://web.stanford.edu/~jurafsky/slp3/7.pdf"
+      slides: "slides/lecture09.pdf"
       assignments: 
         - 
-          deadline: 2023-02-06
-          title: "HW02"
-          url: "hw02.html"
-    - 
-      date: 2023-02-03
-      title: Last day to drop a fifth course at Bryn Mawr and Haverford.
-      type: "'deadline'"
+          deadline: 2023-03-01
+          title: "HW04 - Logistic Regression (SGD)"
+          url: "hws/HW04.html"
     - 
       date: 2023-02-20
-      title: Lecture 10 <br> Deep Learning I
+      title: Lecture 10 <br> Feed Forward Neural Networks <br> Neural Language Models
+      slides: "slides/lecture10.pdf"
       readings:
         -
           title: "Chapter 7"
           url: "https://web.stanford.edu/~jurafsky/slp3/7.pdf"
-      slides: ~
     - 
       date: 2023-02-22
-      title: Lecture 11 <br> Deep Learning II
+      title: Lecture 11 <br> Backpropagation <br> Pytorch <s>Recurrent Neural Networks</s>
       assignments: 
-        - 
-          deadline: 2023-02-13
-          title: "HW03"
-          url: "hw03.html"
+        -
+          title: Final Project - Project Ideation
+          url: "https://www.overleaf.com/read/yzpgxcgsqdvp"
+          deadline: 2023-03-03
       readings:
+        -
+          title: <s>Chapter 9</s>
+          url: "https://web.stanford.edu/~jurafsky/slp3/9.pdf"
         -
           title: "Chapter 7"
           url: "https://web.stanford.edu/~jurafsky/slp3/7.pdf"
-      slides: ~
+      slides: slides/lecture11.pdf
     - 
       date: 2023-02-24
       title: Last day to declare Cr/NC for full semester courses (5 p.m.).
@@ -154,28 +167,34 @@
       type: "'deadline'"
     - 
       date: 2023-02-27
-      title: Lecture 12 <br> Neural Language Models I 
+      title: Lecture 12 <br> Recurrent Neural Networks
       readings:
         -
           title: "Chapter 9"
           url: "https://web.stanford.edu/~jurafsky/slp3/9.pdf"
-      slides: slides/lecture8.pdf
+      slides: "slides/lecture12.pdf"
+      assignments:
+        - 
+          deadline: 2023-03-6
+          title: "Reading 05 - Word Embeddings"
+          url: "https://www.overleaf.com/read/xfkpnmgvvqqd"
     - 
       date: 2023-03-01
-      title: Lecture 13 <br> Neural Language Models II (Transformers)
+      title: Lecture 13 <br> Recurrent Neural Networks <br> <s>Neural Language Models II (Transformers)</s>
       readings:
         -
-          title: "Chapter 10"
+          title: <s>"Chapter 10"</s>
           url: "https://web.stanford.edu/~jurafsky/slp3/10.pdf"
         -
-          title: "Chapter 11"
+          title: <s>"Chapter 11"</s>
           url: "https://web.stanford.edu/~jurafsky/slp3/11.pdf"
+        -
+          title: "Chapter 9"
+          url: "https://web.stanford.edu/~jurafsky/slp3/9.pdf"
+        -
+          title: "Chapters 14 - 16 (Neural Networks for NLP textbook - on Piazza)"
       assignments: 
-        - 
-          deadline: 2023-02-20
-          title: "HW04"
-          url: "hw04.html"
-      slides: slides/lecture9.pdf
+      slides: "slides/lecture13.pdf"
     - 
       date: 2023-03-07
       title: SPRING BREAK
@@ -184,34 +203,47 @@
       date: 2023-03-09
       title: SPRING BREAK
       type: "'no_lecture'"
-  name: "Supervised Learning"
-- 
-  lectures: 
     - 
       date: 2023-03-13
-      title: Lecture 14 
+      title: Lecture 14 <br> LSTM <br> Sentence Representations <br> Probing <br> Attention
       readings:
+        -
+          title: "Chapter 9"
+          url: "https://web.stanford.edu/~jurafsky/slp3/9.pdf"
+        -
+          title: "Probing Classifiers: Promises, Shortcomings, and Advances (Belinkov 2022) (Optional)"
+          url: "https://aclanthology.org/2022.cl-1.7.pdf"
+      slides: "slides/lecture14.pdf"
       assignments: 
-      slides: ~
+        - 
+          deadline: 2023-03-20
+          title: "HW05 - Pytorch"
+          url: "hws/HW05.html"
     - 
       date: 2023-03-15
       slides: ~
-      title: Lecture 15
+      title: Lecture 15 <br> Attention <br> Transformers (BERT, GPT) 
       readings:
+        -
+          title: "Chapter 10"
+          url: "https://web.stanford.edu/~jurafsky/slp3/10.pdf"
       slides: "slides/lecture16.pdf"
     - 
       date: 2023-03-20
       slides: ~
-      title: Lecture 16 
+      title: Lecture 16 <br> Fine Tuning <br> Masked Language Modeling
       readings:
+        -
+          title: "Chapter 11"
+          url: "https://web.stanford.edu/~jurafsky/slp3/11.pdf"
       assignments: 
       slides: "slides/lecture17.pdf"
     - 
       date: 2023-03-22
       slides: ~
-      title: Lecture 17
+      title: Lecture 17 <br> Evaluation Metrics <br> Crowdsource Annotations
       readings:
-  name: "Data Science - Hypothesis Testing"
+  name: "Supervised Learning"
 - 
   lectures: 
     - 
@@ -240,9 +272,9 @@
       title: Lecture 22 <br> Midterm Review (remote lecture)
     - 
       date: 2023-04-12
-      title: Lecture 23 <br> Midterm II
+      title: Lecture 23 <br> Midterm I
       type: "'exam'"
-  name: "Data Science - Data Collection"
+  name: "Data Science - Hypothesis Testing & Data Collection"
 - 
   lectures: 
     - 
